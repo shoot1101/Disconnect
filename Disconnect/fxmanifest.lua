@@ -4,7 +4,11 @@ lua54 'yes'
 
 author 'Bob & Co'
 description 'Disconnect'
-version '1.0.0'
+version '1.0.1'
+
+shared_scripts {
+	'config.lua',
+}
 
 client_scripts {
     'client/*.lua',
